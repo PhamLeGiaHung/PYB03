@@ -1,0 +1,11 @@
+from guizero import App,Text,Box,Picture
+app = App(title= "Máy điện thoại",width=500,height=700,bg= "black")
+time = Text(app,text="8:42 a.m",size= 50,color= "white",align="center")
+box = Box(app,border= True,layout="grid",width=500,height=680)
+toptop = Picture(box,image="toptop3.png",width=100,height=100,grid=[0,0])
+Yutube = Picture(box,image="yutube.png",width=100,height=100,grid=[1,0])
+zalord = Picture(box,image="zalord.png",width=100,height=100,grid=[2,0])
+fb = Picture(box,image="fb.png",width=100,height=100,grid=[3,0])
+sms = Picture(box,image="sms.png",width=100,height=100,grid=[4,0])
+mm = Picture(box,image="mm.png",width=100,height=100,grid=[0,1])
+app.display()
